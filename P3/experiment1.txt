@@ -1,0 +1,35 @@
+-----------------------------------
+Experiment 1
+-----------------------------------
+Test 1
+Player 1: 100 nodes
+Player 2: 10 nodes
+Final win counts:
+    Player 1: 97
+    Player 2: 3
+-----------------------------------
+Test 2
+Player 1: 100 nodes
+Player 2: 50 nodes
+Final win counts:
+    Player 1: 74
+    Player 2: 26
+-----------------------------------
+Test 3
+Player 1: 100 nodes
+Player 2: 500 nodes
+Final win counts:
+    Player 1: 21
+    Player 2: 79
+-----------------------------------
+Test 4
+Player 1: 100 nodes
+Player 2: 1000 nodes
+Final win counts:
+    Player 1: 9
+    Player 2: 91
+-----------------------------------
+As expected, the bot with more nodes has a higher win rate due to it
+being able to simulate more outcomes. Even though both bots have the
+same code and actions, being able to execute more simulations allows
+for better move quality.

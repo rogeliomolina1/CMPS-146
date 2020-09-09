@@ -1,0 +1,8 @@
+Experiment 3 – Time as a Constraint
+
+The modified version when constrained to 1 second had a smaller tree size than
+vanilla. This is likely due to the fact that we had to analyze the available
+moves during the rollout phase as opposed to just choosing a random one. When
+Changing the time constraint to 5 seconds we obtained the same results as well
+as when changing it to .5 seconds. We also noticed that the tree size difference
+seemed smaller the closer the game came to the end.

@@ -1,0 +1,4 @@
+Experiment 2
+The modified version of MCTS had a 70% win rate with 1000 nodes/tree.
+This did not change much when changing the tree size. The win rate only slightly
+dropped to 66% when the size of the tree was reduced to 100 nodes/tree.
